@@ -1,0 +1,51 @@
+{
+    "main": "main.py",
+    "name": "Example",
+    "homepage": "https://github.com/nzbgetcom/Extension-Example",
+    "kind": "POST-PROCESSING",
+    "displayName": "Example",
+    "version": "1.0",
+    "author": "phnzb",
+    "license": "GNU",
+    "about": "Example NZBGet extension",
+    "queueEvents": "",
+    "requirements": [
+        "This script requires Python 3.8+ to be installed on your system."
+    ],
+    "description": ["Simple NZBGet Python extension"],
+    "options": [
+        {
+            "name": "OptionSelect",
+            "displayName": "OptionSelect",
+            "value": "One",
+            "description": ["Option with select values"],
+            "select": ["One", "Two"]
+        },
+        {
+            "name": "OptionString",
+            "displayName": "OptionString",
+            "value": "String value",
+            "description": ["Option with string value"],
+            "select": []
+        },
+        {
+            "name": "OptionNumber",
+            "displayName": "OptionNumber",
+            "value": 0,
+            "description": [
+                "Option with number value",
+                "(range 0 .. 1000)"
+            ],
+            "select": [0, 1000]
+        }
+    ],
+    "commands": [
+        {
+            "name": "Test",
+            "action": "Test command",
+            "displayName": "Test",
+            "description": ["Command to test extension"]
+        }
+    ],
+    "taskTime": ""
+}
