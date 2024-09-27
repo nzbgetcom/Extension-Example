@@ -9,10 +9,10 @@ on:
 
 jobs:
   prospector:
-    uses: nzbgetcom/nzbget-extensions/.github/workflows/prospector.yml@feature/workflows
+    uses: nzbgetcom/nzbget-extensions/.github/workflows/prospector.yml@main
 
   manifest:
-    uses: nzbgetcom/nzbget-extensions/.github/workflows/manifest.yml@feature/workflows
+    uses: nzbgetcom/nzbget-extensions/.github/workflows/manifest.yml@main
 
   tests:
     uses: nzbgetcom/nzbget-extensions/.github/workflows/python-tests.yml@main
